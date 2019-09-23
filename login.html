@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1" />
+	
+    
+    <script type="text/javascript" src="cordova.js"></script>
+	
+    <script type="text/javascript" src="login.js"></script>
+	<link rel="stylesheet" type="text/css" href="login.css">
+
+    <title>Login</title>
+</head>
+
+<body>
+
+	<center>
+	<form id="text" method="post" name="myform">
+
+		<h1>SmartLight</h1>
+		
+
+		<label>Password :</label>
+		
+		<br><br>
+		
+		<input type="password" name="password" id="password"/>
+		
+		<br><br>
+		
+		<input type="button" value="Login" id="submit" onclick="validate()"/>
+		
+		<br>
+		<br>
+	
+		</form>
+		
+
+		<div id= "note">
+		<span>
+		<b class="note">Note : </b>For this demo use following password. <br/>
+		<b class="valid">Password : 123</b>
+		</span>
+		</div>
+		
+
+		</center>
+	</body>
+		
+</html>
